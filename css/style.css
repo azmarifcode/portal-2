@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.news-author-img{
+    width: 32px;
+}
+.news-author-published{
+    font-size: 12px;
+}
