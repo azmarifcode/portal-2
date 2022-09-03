@@ -87,9 +87,9 @@ const displayNews = async(newsesData) => {
                                 </p>
                             </div>
                             <div class="col-3 col-md-3">
-                                <span><i class="fa-regular fa-eye"></i> ${total_view ? total_view : '00'}</span>
+                                <span><i class="fa-regular fa-eye"></i> ${total_view ? total_view : 'N/A'}</span>
                                 <br />
-                                <span><i class="fa-sharp fa-solid fa-star"></i> ${rating.number ? rating.number : '00'}</span>
+                                <span><i class="fa-sharp fa-solid fa-star"></i> ${rating.number ? rating.number : 'N/A'}</span>
                             </div>
                             <div class="col-12 col-md-3">
                                 <button type="button" class="btn btn-outline-dark w-100" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick='newsDetailsLoad("${_id}")'>Details<i class="fa-solid fa-play ms-1"></i></button>

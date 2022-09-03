@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* display: table; */
 }
 .news-author-img{
     width: 32px;
@@ -8,3 +9,17 @@
 .news-author-published{
     font-size: 12px;
 }
+
+/* .footer {
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    display: table-row;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+} */
